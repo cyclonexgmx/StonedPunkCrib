@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Stoned Punk Crib - Cannabis Products, Flavors & Accessories" />
+  <meta name="keywords" content="cannabis, buds, flavors, accessories, stoned, punk, weed" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stoned Punk Crib</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Example: Luckiest Guy for headlines, Quicksand for body -->
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Fixed WhatsApp Button -->
+  <a href="https://wa.me/+2348131652800" class="whatsapp-float" target="_blank">
+    <img src="img/whatsapp-logo-pc.png" alt="WhatsApp" />
+  </a>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo-container">
+      <img src="img/stonedpunk.jpg" alt="Stoned Punk Logo" class="logo" />
+      <h1 class="site-title">Stoned Punk Crib</h1>
+    </div>
+    <p class="tagline">Stay Stoned! Stay Loud!</p>
+    <nav class="nav">
+      <a href="#buds">Buds</a>
+      <a href="#flavors">Flavors</a>
+      <a href="#bunks">Bunks</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h2>Welcome to the Crib!</h2>
+    <p>Where every sunset is a vibe and every puff tells a story.</p>
+    <button onclick="scrollToSection('buds')" class="cta-button">Shop Now</button>
+  </section>
+
+  <!-- BUDS SECTION -->
+  <section id="buds" class="section">
+    <h2 class="section-title">Our Buds</h2>
+    <div id="buds-container" class="cards-container">
+      <!-- JS will populate Buds cards here -->
+    </div>
+  </section>
+
+  <!-- FLAVORS SECTION -->
+  <section id="flavors" class="section">
+    <h2 class="section-title">Flavors & Infusions</h2>
+    <div id="flavors-container" class="cards-container">
+      <!-- JS will populate Flavors cards here -->
+    </div>
+  </section>
+
+  <!-- BUNKS SECTION -->
+  <section id="bunks" class="section">
+    <h2 class="section-title">Bunks & Accessories</h2>
+    <div id="bunks-container" class="cards-container">
+      <!-- JS will populate Bunks cards here -->
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <h2>About Us</h2>
+    <p>
+      At Stoned Punk Crib, we’re all about taking it easy while staying loud. Born from the vibrant haze of tropical sunsets and punk rock nights...
+    </p>
+    <p>
+      We’re a ragtag crew of cannabis lovers, flavor chasers, and accessory junkies on a mission to share our passion with fellow stoners worldwide...
+    </p>
+    <p class="disclaimer">
+      <strong>Disclaimer:</strong> Stoned Punk Crib products are intended for responsible adults only. Please consume responsibly and in compliance with local laws.
+    </p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+    <h2>Hit Us Up!</h2>
+    <p>For orders, questions, or just to say hi, message us on WhatsApp or follow us on social media.</p>
+    <div class="social-links">
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">Facebook</a>
+    </div>
+    <button onclick="window.open('https://wa.me/+2348131652800','_blank')" class="cta-button">Buy Now</button>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Stay Stoned! Stay Loud! &copy; <span id="year"></span> Stoned Punk Crib</p>
+    <p>All rights reserved. Puff responsibly.</p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
+</body>
+</html>

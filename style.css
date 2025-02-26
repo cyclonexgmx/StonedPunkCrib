@@ -1,0 +1,214 @@
+/* Global Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #333;
+  background: #fdf6f6; /* A light background to let the gradient sections pop */
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(90deg, #FF7E5F, #FD297B);
+  color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+.site-title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+.tagline {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(180deg, #FD297B, #9C27B0);
+  color: #fff;
+}
+.hero h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.cta-button {
+  background: #ffeb3b;
+  color: #333;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.cta-button:hover {
+  opacity: 0.9;
+}
+
+/* Sections */
+.section {
+  padding: 2rem 1rem;
+}
+.section-title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Cards Container */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Card */
+.card {
+  width: 250px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.card .card-content {
+  padding: 1rem;
+}
+.card .card-content h3 {
+  margin-bottom: 0.5rem;
+  font-family: 'Luckiest Guy', cursive;
+}
+.card .price {
+  color: #fd297b;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+.card .stock-status {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.stock-in {
+  background-color: #c8e6c9;
+  color: #388e3c;
+}
+.stock-out {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+/* About Section */
+.about-section {
+  background: linear-gradient(180deg, #FF7E5F, #FD297B);
+  color: #fff;
+  text-align: center;
+  border-top-left-radius: 50% 20px;
+  border-top-right-radius: 50% 20px;
+}
+.about-section p {
+  margin: 1rem auto;
+  max-width: 600px;
+}
+.disclaimer {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  opacity: 0.9;
+}
+
+/* Contact Section */
+.contact-section {
+  text-align: center;
+}
+.social-links a {
+  margin: 0 0.5rem;
+  color: #FD297B;
+  text-decoration: none;
+  font-weight: 600;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+.footer p {
+  margin: 0.2rem;
+}
+
+/* WhatsApp Float Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 99;
+}
+.whatsapp-float img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+  }
+}
