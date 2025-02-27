@@ -15,13 +15,13 @@ const budsData = [
   {
     name: "Canadian Berry Blast",
     image: "img/canadian-berry-blast.png",
-    price: "₦ 3.5M / p, ₦ 224K / oz",
+    price: "₦ 3.3M / p, ₦ 212K / oz",
     inStock: true
   },
   {
-    name: "SA Mandela Bomb",
+    name: "SA Cheese Bomb",
     image: "img/sa-mandela-bomb.jpg",
-    price: "₦ 2.8M / p, ₦ 180K / oz",
+    price: "₦ 3.5M / p, ₦ 224K / oz",
     inStock: true
   },
   {
@@ -120,6 +120,12 @@ const bunksData = [
     price: "₦ 35K",
     inStock: true
   },
+  {
+    name: "Backwood",
+    image: "img/backwood-smokes.png",
+    price: "₦ 8K",
+    inStock: true
+  }
 ];
 
 // Utility function to create a card
